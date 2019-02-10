@@ -1,2 +1,4 @@
-:root{font-size: 5vw;}
-
+:root,body{
+    font-size: 5vw;
+    overflow-x:hidden;
+}

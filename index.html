@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+        m =  navigator.userAgent.match(/\(.+?\)/)[0]
+        .search(/(android)|(iPhone)|(iPad)/i)
+        if(window.innerWidth>window.innerHeight 
+        && m<0
+        &&''==document.location.search){
+
+            document.location = 'home.html'
+        }
+        
+    </script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
     <title>Home | Rong</title>
     <link href="styles/style.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
 
     <style>
-
+        #c{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -17,9 +31,54 @@
     <div id="main">
         <h1>Hello,world!</h1>
         <p>今天，又是充满希望的一天。</p>
+        <p>Seattle 2 洛天依、乐正绫
+        </p>
+        <p id="c">
+            启程时迎着日出<br>
+            抵达时伴着日暮<br>
+            坐了一整天的车<br>
+            你应该很累吧<br>
+            “听说这家店不错”<br>
+            你很高兴地对我说<br>
+            看来下雨也没战胜<br>
+            这吃货的执着<br>
+            温暖的海风吹拂过<br>
+            这依旧热闹的港口<br>
+            温馨的夜幕降临在<br>
+            街的每个角落<br>
+            你突然拉着我的手<br>
+            而我不知所措<br>
+            扑通扑通心跳加速<br>
+            烛光中你温柔的笑容<br>
+            是我见过最美的景色<br>
+            多希望这一刻能长久<br>
+            哪怕时间在此定格<br>
+            就算是拼尽所有<br>
+            为你赴汤蹈火<br>
+            也要给你幸福<br>
+            让你快乐~<br>
+            <br>-------------<br>
+            醒来后已是中午
+            昨天还计划着看日出
+            望着你熟睡的面孔
+            写下了这首歌
+            “为什么不早叫我”
+            你噘着嘴对我说 
+            总之我现在很饿
+            得先填饱再说
+
+
+
+
+
+
+
+        </p>
+
         <hr>
         <p>尝试使用 ssh 推送</p>
         <p>git@github.com:beamxron/beamxron.github.io.git</p>
+        <small> ^ 没有空格所以可能不会自动换行</small>
     </div>
 
     <script>
