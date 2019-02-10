@@ -1,4 +1,5 @@
 :root{
     font-size: 40px;
     overflow-x:hidden;
+    word-break:break-all;
 }

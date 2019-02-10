@@ -1,4 +1,13 @@
-:root,body{
+:root{
     font-size: 5vw;
-    overflow-x:hidden;
+    word-break:break-all;
 }
+
+a{
+    color: lightskyblue;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
